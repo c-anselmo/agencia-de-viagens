@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+.limita{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    color: #5d15d1;
+}
+
+.logo img{
+    width: 32px;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+    background-image: url(imagens/bahia.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.form-area{
+    margin: 50px auto;
+    width: 100%;
+}
+
+.topo-form{
+    background-color: #5d15d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 35px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.topo-form img{
+    width: 20px;
+    rotate: -45deg;
+    margin-right: 5px;
+}
+
+.agrupa-form{
+    width: 100%;
+    background-color: white;
+    padding: 30px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.agrupa-form h2{
+    font-size: 22px;
+    padding-bottom: 24px;    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.agrupa-form label{
+    font-size: 16px;
+}
+
+.agrupa-form input, .agrupa-form select{
+    height: 32px;
+    margin: 10px 0;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.campo-duplo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo-duplo div{
+    width: calc(50% - 10px)
+}
+
+.radio, .checkbox{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.radio div, .checkbox div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    padding: 5px;
+    gap: 5px;
+    
+}
+
+.radio input, .checkbox input{
+    width: 15px;
+    cursor: pointer;
+}
+
+.radio label, .checkbox label{
+    cursor: pointer;
+}
+
+button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.ofertas, .anuncios{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 32px auto 0 auto;
+}
+
+.ofertas h2, .anuncios{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ofertas h3, .anuncios{
+    font-size: 16px;
+    margin-bottom: 15px; 
+    font-weight: normal;
+}
+
+.ofertas span{
+    font-weight: bold;
+}
+
+.agrupa-oferta{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.agrupa-oferta img, .agrupa-anuncio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rio, .anuncio-imagens{
+    width: calc(50% - 10px);
+    height: 100%;
+    position: relative;
+}
+
+.img4{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img4 div{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.agrupa-oferta span{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
+    font-size: 17px;
+    left: 0;
+    bottom: 0;  
+    padding: 5px 10px;
+}
+
+.agrupa-anuncio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriçao{
+    background-color: white;
+    padding: 20px;
+}
+
+.descriçao h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.descriçao p{
+    color: gray;
+}
+
+footer{
+    width: 100%;
+    background-color: #5d15d1;
+    margin-top: 32px;   
+}
+   
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.rodape-limita{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.rodape-limita h2{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.rodape-limita span{
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.icones{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.icones img{
+    width: 18px;
+}
